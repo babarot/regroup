@@ -100,7 +100,8 @@ func (r *ReGroup) setField(fieldType reflect.StructField, fieldRef reflect.Value
 
 	matchedVal, ok := matchGroup[regroupKey]
 	if !ok {
-		return &UnknownGroupError{group: regroupKey}
+		// return &UnknownGroupError{group: regroupKey}
+		return nil
 	}
 
 	if matchedVal == "" {

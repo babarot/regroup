@@ -1,4 +1,4 @@
-module github.com/b4b4r07/regroup
+module github.com/babarot/regroup
 
 go 1.14
 
